@@ -19,6 +19,9 @@
 			echo "<br>Ano = " . $n3;
 			echo "<br>Ano = " . $n4;
 			
+			$media = ($n1 + $n2 + $n3 +$n4)/4;
+			echo "<br> Média = 	" . $media;
+			
 	}else{
 		echo "Campos não preenchidos!!!";	
 	}			
